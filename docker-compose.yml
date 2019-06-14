@@ -1,6 +1,6 @@
-version: "2.7"
+version: "3.7"
 
 services:
   web:
     build: .
-    command: python /code/sarctext.py "Wasting Docker images by shitposting simple python scripts"
+    command: python /code/sarctext.py "Enter your text here"
