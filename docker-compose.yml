@@ -1,0 +1,6 @@
+version: "2.7"
+
+services:
+  web:
+    build: .
+    command: python /code/sarctext.py "Wasting Docker images by shitposting simple python scripts"
